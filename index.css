@@ -41,8 +41,8 @@
   justify-content: end;
 }
 
-.date {
-  max-width: 30%;
+#date {
+  margin-right: 50px;
 }
 
 .container {
