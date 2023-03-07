@@ -1,6 +1,6 @@
 import BookCollect from './modules/bookcollect.js';
 import { showList, showForm, showContact } from './modules/ui.js';
-import { DateTime } from "./modules/luxon.js";
+import { DateTime } from './modules/luxon.js';
 
 const BookCollection = new BookCollect();
 const localData = JSON.parse(localStorage.getItem('Books'));
@@ -48,7 +48,7 @@ const contactBtn = document.querySelector('.contact-btn');
 window.addEventListener('load', () => {
   date.textContent = formatted;
   showList();
-})
+});
 
 listBtn.addEventListener('click', () => {
   showList();
